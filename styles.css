@@ -90,10 +90,25 @@ footer {
 .card { overflow-x: auto; }
 
 .profile-img {
-    max-width: 300px;
-    height: auto;
-    margin: 0.75rem;
+    width: 300px;    /* fixed width */
+    height: 300px;   /* fixed height */
+    object-fit: cover; /* crops but keeps correct proportions */
     border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.photo {
     display: inline-block;
-    vertical-align: top;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.photo figcaption {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.25rem;
+}
+
+.rotate {
+    transform: rotate(90deg);
 }
