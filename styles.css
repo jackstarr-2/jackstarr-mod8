@@ -1,0 +1,48 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+    background-color: #F5F5DC; /* cream */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== HEADER & NAVIGATION ========== */
+header {
+    background-color: #1E3A8A; /* deep blue */
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== MAIN CONTENT AREA ========== */
+main {
+    padding: 1.5rem;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #1E3A8A; /* deep blue */
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    margin-top: 2rem;
+}
+
+/* ========== CUSTOM CLASS (REQUIRED) ========== */
+.card {
+    background-color: #ffffff;     /* white card background */
+    border: 2px solid #1E3A8A;     /* blue border (box model) */
+    padding: 1rem;                /* box model padding */
+    margin: 1.5rem 0;             /* box model margin */
+    border-radius: 8px;           /* rounded corners (nice touch) */
+}
