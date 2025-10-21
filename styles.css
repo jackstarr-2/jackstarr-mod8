@@ -46,3 +46,45 @@ footer {
     margin: 1.5rem 0;             /* box model margin */
     border-radius: 8px;           /* rounded corners (nice touch) */
 }
+
+/* ========== TABLE STYLING (polished) ========== */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;          /* for rounded corners */
+    border-radius: 8px;        /* matches .card */
+}
+
+.schedule-table caption {
+    caption-side: top;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    color: #1E3A8A;            /* blue, matches theme */
+}
+
+.schedule-table thead th {
+    background-color: #dfe8ff; /* light blue header */
+    color: #1E3A8A;
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 2px solid #1E3A8A;
+}
+
+.schedule-table th[scope="row"],
+.schedule-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #c6d2f5; /* soft divider */
+}
+
+/* zebra striping for readability */
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: #f8fafc; /* very light gray/cream */
+}
+
+/* hover highlight */
+.schedule-table tbody tr:hover {
+    background-color: #eef3ff;
+}
+
+/* mobile: allow horizontal scroll if needed */
+.card { overflow-x: auto; }
