@@ -89,11 +89,11 @@ footer {
 /* mobile: allow horizontal scroll if needed */
 .card { overflow-x: auto; }
 
-/* ========== IMAGE STYLING ========== */
 .profile-img {
-    max-width: 250px;   /* prevents huge oversized images */
+    max-width: 300px;
     height: auto;
-    margin: 0.5rem;
-    border-radius: 8px; /* soft edges look nicer */
+    margin: 0.75rem;
+    border-radius: 8px;
     display: inline-block;
+    vertical-align: top;
 }
